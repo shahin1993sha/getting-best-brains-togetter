@@ -1,16 +1,13 @@
 import csv
 
 import nltk
-import spacy
 import textract
 from pdfminer.high_level import extract_text
 import os
-import time
 import matplotlib.pyplot as plt
-import numpy as np
+
 
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
