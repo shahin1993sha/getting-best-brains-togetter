@@ -160,8 +160,8 @@ def scrape_job_details():
         job_title = job_title_element.text.strip()
 
         # Print the extracted job description
-        print(f"Job Title: {job_title}")
-        print(f"Job Description: {job_description}")
+        #print(f"Job Title: {job_title}")
+        #print(f"Job Description: {job_description}")
         return job_title, job_description
 
     except Exception as e:
@@ -194,27 +194,39 @@ def plot_radar_chart(candidate_scores):
     labels = list(candidate_scores.keys())
     scores = list(candidate_scores.values())
 
-    # Number of variables
-    num_vars = len(labels)
-
-    # Compute angle for each axis
-    angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
-
-    # The plot is circular, so we need to "complete the loop" and append the start value to the end.
-    scores += scores[:1]
-    angles += angles[:1]
-
-    # Plot
-    fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
-    ax.fill(angles, scores, color='skyblue', alpha=0.5)
-    ax.plot(angles, scores, color='blue', linewidth=2)
-
-    # Labels for each axis
-    ax.set_yticklabels([])
-    ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(labels)
-
-    # Title
-    plt.title('Candidate Match Scores (Radar Chart)', size=20, color='blue', y=1.1)
-
+    # # Number of variables
+    # num_vars = len(labels)
+    #
+    # # Compute angle for each axis
+    # angles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()
+    #
+    # # The plot is circular, so we need to "complete the loop" and append the start value to the end.
+    # scores += scores[:1]
+    # angles += angles[:1]
+    #
+    # # Plot
+    # fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
+    # ax.fill(angles, scores, color='skyblue', alpha=0.5)
+    # ax.plot(angles, scores, color='blue', linewidth=2)
+    #
+    # # Labels for each axis
+    # ax.set_yticklabels([])
+    # ax.set_xticks(angles[:-1])
+    # ax.set_xticklabels(labels)
+    #
+    # # Title
+    # plt.title('Candidate Match Scores (Radar Chart)', size=20, color='blue', y=1.1)
+    #
+    # plt.show()
+    candidates_names = list(candidate_scores.keys())
+    match_scores_values = list(candidate_scores.values())
+    plt.figure(figsize=(10, 6))
+    plt.bar(candidates_names, match_scores_values, color='skyblue')
+    plt.title('Candidate Match Scores')
+    plt.xlabel('Candidates')
+    plt.ylabel('Match Score (%)')
+    plt.ylim(0, 100)  # Set y-axis limit to 0-100
+    plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.tight_layout()
     plt.show()
