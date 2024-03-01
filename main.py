@@ -50,7 +50,7 @@ def matchSkills():
     print("shortlisted resume : {}", percentage_details)
     initial_candidate_names = list(percentage_details.keys())
     initial_match_scores_values = list(percentage_details.values())
-    plot_radar(initial_candidate_names, initial_match_scores_values)
+    plot_graph(initial_candidate_names, initial_match_scores_values)
 
 
 # Function to regenerate match score
@@ -66,7 +66,7 @@ def display_job_description():
 
 
 # Function to plot radar chart
-def plot_radar(candidate_names, match_scores_values):
+def plot_graph(candidate_names, match_scores_values):
     # Clear the existing plot if it exists
     for widget in radar_frame.winfo_children():
         widget.destroy()
@@ -90,15 +90,15 @@ def plot_radar(candidate_names, match_scores_values):
 
 
 # Function to upload a PDF file
-def upload_pdf():
-    file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])
+def upload_resume():
+    file_path = filedialog.askopenfilename(filetypes=[("PDF files", ".pdf"), ("Word files", ".docx;*.doc")])
     if file_path:
         try:
             # Save the uploaded file to the Resumes folder
             destination = os.path.join('data/Input/Resumes', os.path.basename(file_path))
             os.makedirs(os.path.dirname(destination), exist_ok=True)
             os.rename(file_path, destination)
-            messagebox.showinfo("Success", "PDF uploaded successfully")
+            messagebox.showinfo("Success", "Resume uploaded successfully")
         except Exception as e:
             messagebox.showerror("Error", f"An error occurred: {e}")
 
@@ -119,7 +119,7 @@ display_job_description()
 upload_frame = tk.Frame(root)
 upload_frame.pack(side=tk.TOP, fill=tk.X, padx=10, pady=10)
 
-upload_button = tk.Button(upload_frame, text="Upload PDF", command=upload_pdf)
+upload_button = tk.Button(upload_frame, text="Upload Resume", command=upload_resume)
 upload_button.pack(side=tk.LEFT)
 
 regenerate_button = tk.Button(upload_frame, text="Regenerate Match Score", command=regenerate_match_score)
