@@ -13,11 +13,17 @@ Resumes: Place your resumes in PDF/docx format in the data/input/Resumes folder 
 Job Descriptions: Update link for corresponding job from a portal
 
 2)Run the application
-python main.py
-
-final output look like this -
-
-![img.png](img.png)
+ 
+ git clone https://github.com/shahin1993sha/getting-best-brains-togetter.git
+ 
+ install required libraries 
+ then run application 
+ 
+ python main.py
+ 
+ final output look like this -
+ 
+ ![img.png](img.png)
 
 
 Presentation - https://www.youtube.com/watch?v=oXeS2_YNXA4
