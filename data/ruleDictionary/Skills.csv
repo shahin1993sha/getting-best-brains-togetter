@@ -1,0 +1,392 @@
+﻿HTML
+CSS
+Ruby
+TypeScript
+AWS
+Azure
+Google Cloud Platform
+Microservices
+Serverless
+DevOps
+Functional Programming
+Object-Oriented Programming (OOP)
+Procedural Programming
+Reactive Programming
+Aspect-Oriented Programming (AOP)
+Design Patterns
+Architectural Patterns
+Testing
+Unit Testing
+Integration Testing
+End-to-End Testing (E2E)
+Regression Testing
+Performance Testing
+Security Testing
+Load Testing
+Penetration Testing
+Static Code Analysis
+Code Review
+Pair Programming
+Refactoring
+Dependency Injection
+Singleton Pattern
+Factory Pattern
+Observer Pattern
+Builder Pattern
+Composite Pattern
+JIRA
+Confluence
+Agile Methodologies
+Scrum
+Kanban
+Lean Software Development
+Test-Driven Development (TDD)
+Behavior-Driven Development (BDD)
+Continuous Integration (CI)
+Continuous Deployment (CD)
+Clean Code Principles
+SOLID Principles
+RESTful APIs
+SOAP APIs
+Microservices Architecture
+Serverless Architecture
+Cloud Computing
+Amazon Web Services (AWS)
+Microsoft Azure
+Google Cloud Platform (GCP)
+Docker
+Kubernetes
+Jenkins
+Travis CI
+CircleCI
+Git
+GitHub
+GitLab
+Bitbucket
+Ansible
+Chef
+Puppet
+Terraform
+Linux
+Unix
+Windows
+macOS
+iOS
+Android
+Java
+Python
+JavaScript
+Node.js
+React.js
+Angular.js
+Vue.js
+Express.js
+Spring Boot
+Django
+Flask
+Ruby on Rails
+PHP
+Swift
+Kotlin
+Rust
+Go
+C++
+C#
+SQL
+NoSQL
+MongoDB
+PostgreSQL
+MySQL
+SQLite
+Redis
+Oracle
+Logstash
+Hadoop
+MapReduce
+Apache Cassandra
+DynamoDB
+Neo4j
+OAuth2
+OpenAPI Specification (Swagger)
+gRPC
+Protocol Buffers
+Swagger
+RAML
+JSON Schema
+XSD Schema
+Thrift
+HATEOAS
+GraphQL
+Django REST Framework
+Spring Boot REST
+Express.js REST
+REST Assured
+Postman
+Insomnia
+Swagger UI
+Karma
+Jasmine
+Mocha
+Chai
+JUnit
+TestNG
+NUnit
+xUnit
+Selenium
+Cypress
+WebDriver
+Robot Framework
+Appium
+Protractor
+Jest
+Cucumber
+Gauge
+Behave
+SoapUI
+JMeter
+Gatling
+Apache Bench
+Locust
+New Relic
+AppDynamics
+Dynatrace
+DataDog
+Sumo Logic
+Loggly
+Logz.io
+Graylog
+AWS CloudWatch
+Azure Monitor
+Google Cloud Monitoring
+Prometheus
+Grafana
+Kibana
+Splunk
+Kafka
+Kinesis
+RocketMQ
+NATS
+NSQ
+ActiveMQ
+ZeroMQ
+Spring Cloud Stream
+Kafka Streams
+KSQL
+Apache Storm
+Apache Beam
+Apache Samza
+Amazon Kinesis
+Talend
+Informatica
+SAP Data Services
+Apache NiFi
+Pentaho
+IBM InfoSphere
+Airflow
+Luigi
+Oozie
+OpenWhisk
+FaaS
+Serverless Framework
+AWS Serverless Application Model (SAM)
+Azure Serverless
+Kubeless
+OpenFaas
+Fission
+Knative
+AWS Batch
+Azure Batch
+Google Cloud Dataprep
+AWS Step Functions
+Azure Logic Apps
+Google Cloud Workflows
+AWS SQS
+Azure Service Bus
+Google Cloud Pub/Sub
+RabbitMQ
+AWS SES
+Azure SendGrid
+Google Cloud Mailgun
+Mailchimp
+AWS SNS
+Azure Notification Hubs
+Google Cloud Firebase Cloud Messaging (FCM)
+Twilio
+Nexmo
+AWS API Gateway
+Azure API Management
+Google Cloud Endpoints
+AWS Amplify
+AWS AppSync
+Google Firebase
+AWS IoT Core
+Azure IoT Hub
+Google Cloud IoT Core
+AWS WAF
+Azure Application Gateway
+Google Cloud Armor
+AWS Shield
+Cloudflare WAF
+AWS IAM
+Azure Active Directory
+Google Cloud Identity and Access Management (IAM)
+OAuth
+SAML
+OpenID Connect
+JSON Web Tokens (JWT)
+AWS Cognito
+Azure Active Directory B2C
+Google Cloud Identity Platform
+AWS CloudTrail
+Azure Activity Log
+Google Cloud Audit Logs
+AWS Config
+Azure Policy
+AWS Inspector
+Azure Security Center
+Google Cloud Security Scanner
+AWS GuardDuty
+Azure Advanced Threat Protection
+AWS KMS
+Google Cloud KMS
+AWS CloudHSM
+Azure Dedicated HSM
+Google Cloud External Key Manager
+AWS Certificate Manager
+Google Cloud Key Management Service
+AWS Secrets Manager
+Azure Key Vault
+Google Cloud Secret Manager
+AWS Backup
+Azure Backup
+Google Cloud Backup
+AWS Snowball
+Azure Data Box
+Google Cloud Transfer Appliance
+AWS Database Migration Service
+Azure Database Migration Service
+Google Cloud Database Migration Service
+AWS Direct Connect
+Azure ExpressRoute
+AWS VPN
+Azure VPN Gateway
+Google Cloud VPN
+AWS Transit Gateway
+Azure Virtual WAN
+Google Cloud Interconnect
+AWS Direct Connect Gateway
+Azure ExpressRoute Gateway
+Google Cloud VPN Gateway
+AWS Snowball Edge
+Azure Data Box Edge
+AWS Snowcone
+Azure Stack Edge
+Google Cloud Edge TPU
+AWS Outposts
+Azure Stack
+Google Cloud Anthos
+AWS Auto Scaling
+Azure Autoscale
+Google Cloud Autoscaler
+AWS Elastic Load Balancing
+Azure Load Balancer
+Google Cloud Load Balancing
+AWS Aurora
+Azure SQL Database
+Google Cloud Spanner
+AWS RDS
+Azure Database for MySQL
+Google Cloud SQL
+AWS DynamoDB
+Azure Cosmos DB
+Google Cloud Bigtable
+AWS Redshift
+Azure Synapse Analytics
+AWS EMR
+Azure HDInsight
+Google Cloud Dataproc
+AWS Athena
+Azure Data Lake Analytics
+Google Cloud BigQuery
+AWS Data Pipeline
+Azure Data Factory
+Google Cloud Dataflow
+AWS Glue
+Azure Data Lake Storage
+AWS S3
+AWS Glacier
+Azure Blob Storage
+Google Cloud Storage
+AWS EFS
+Azure Files
+Google Cloud Filestore
+AWS Lambda
+Azure Functions
+Google Cloud Functions
+AWS Elastic Beanstalk
+Azure App Service
+Google Cloud App Engine
+AWS ECS
+Azure Container Instances
+Google Cloud Run
+AWS EKS
+Azure Kubernetes Service
+Google Kubernetes Engine
+AWS Fargate
+AWS CodePipeline
+Azure DevOps
+Google Cloud Deploy
+AWS CodeCommit
+Azure Repos
+Google Cloud Source Repositories
+AWS CodeBuild
+Azure Pipelines
+Google Cloud Build
+AWS CodeStar
+AWS CodeArtifact
+Azure Artifacts
+Google Cloud Artifact Registry
+AWS CodeDeploy
+Machine Learning
+Deep Learning
+Artificial Intelligence
+Natural Language Processing (NLP)
+Computer Vision
+Big Data
+Data Engineering
+Data Analysis
+Data Science
+Data Visualization
+Data Warehousing
+"ETL (Extract, Transform, Load)"
+Apache Spark
+Apache Hadoop
+Apache Kafka
+Apache Flink
+Elasticsearch
+Tableau
+Power BI
+TensorFlow
+PyTorch
+Keras
+Numpy
+Pandas
+Matplotlib
+Scikit-learn
+Jupyter Notebook
+Data Mining
+Regression Analysis
+Classification Analysis
+Clustering Analysis
+Dimensionality Reduction
+Time Series Analysis
+Predictive Modeling
+Recommendation Systems
+Reinforcement Learning
+Supervised Learning
+Unsupervised Learning
+Semi-supervised Learning
+Active Learning
+Transfer Learning
+Meta Learning
+Federated Learning
